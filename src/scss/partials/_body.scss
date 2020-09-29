@@ -89,6 +89,10 @@ p {
     margin-left: 3%;
 }
 
+.section {
+    @include estiloSection
+}
+
 label {
     font-family: 'Rubik';
     font-size: 1.5rem;
