@@ -51,8 +51,20 @@ li {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-left: 3%;
+    margin-top: 17.5%;
+    margin-bottom: 1%;
+}
+
+@media screen and (min-width: 769px) {
+    
+    h1 {
+        font-size: 3.5rem;
+        margin-left: 3%;
+        margin-top: 1.5%;
+        margin-bottom: 1%;
+    }
 }
 
 h2 {
