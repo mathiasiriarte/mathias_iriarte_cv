@@ -24,8 +24,9 @@ img {
 
 .containerLogos {
     background: #00647f;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 li {
@@ -55,10 +56,14 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 h3 {
     font-size: 2rem;
+    margin-left: 3%;
 }
 
 p {
@@ -68,6 +73,12 @@ p {
     line-height: 30px;
     margin-top: 20px;
     margin-bottom: 25px;
+    margin-left: 3%;
+}
+
+label {
+    font-family: 'Rubik';
+    font-size: 1.5rem;
 }
 
 /* font-family: 'Kumbh Sans', sans-serif;
