@@ -127,13 +127,12 @@
     }
     
     ul {
-        margin-left: -30px;
+        margin-left: -40px;
     }
 
     li {
         line-height: 25px;
         font-size: 1.2rem;
-        padding-top: 15px;
     }
 
     a:link {
@@ -171,8 +170,19 @@
         display: block;
     }
 
+    .navigationContainer {
+        border-top-style: solid;
+        border-top-color: aquamarine;
+        border-top-width: thin;
+    }
+
     .navigationContainer a {
         text-align: center;
+        padding: 7px 8px 7px 8px;
+        display: block;
+        border-bottom: solid;
+        border-bottom-color: aquamarine;
+        border-bottom-width: thin;
     }
 
     .containerProfilePhoto .perfLogo {
